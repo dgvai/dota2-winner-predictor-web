@@ -109,12 +109,7 @@ st.button("PREDICT WINNER", on_click=predictor)
 
 st.sidebar.title("Dota 2 Match Prediction")
 st.sidebar.write("""
-In this work, the prediction methodology is based on
-game duration, the hero choices and their stats of the game.
-
-
-The model has been trained with approx. 26,000 professional
-matches data, with Random Forest algorithm.
+With the rapid development of e-sports, games are now using machine learning techniques in several scopes of application. One of the most important applications of game is insights over winner and predictions. In this work, we used the match stats data of kills-deaths-assists along with the match duration and the heroes to predict the winner of a game based on a stacked Bi-LSTM model. The data of the matches to train the model, were collected from OpenDota API.
 """)
 
 
